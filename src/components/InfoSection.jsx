@@ -21,9 +21,6 @@ const InfoSection = () => {
           </strong>
           entre otros.
         </p>
-        {/* <span className="image main">
-          <img src="src/assets/images/pic02.jpg" alt="" />
-        </span> */}
       </div>
     </section>
   );

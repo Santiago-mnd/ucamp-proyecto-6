@@ -2,40 +2,44 @@ const ListSection = () => {
   return (
     <section>
       <header>
-        <h2>Feugiat consequat tempus ultrices</h2>
+        <h2>¿Qué construí?</h2>
       </header>
       <div className="content">
         <p>
-          <strong>Etiam tristique libero</strong> eu nibh
-          porttitor amet fermentum. Nullam venenatis erat id
-          vehicula ultrices sed ultricies condimentum.
+          A lo largo del Bootcamp se construyeron distintos
+          páginas web, con la finalidad de adquirir y
+          practicar los conocimientos otorgados durante las
+          clases. Desde una landing page sencilla, hasta un
+          <span className="font-semibold">
+            {' '}
+            E-commerce
+          </span>{' '}
+          completo, creando{' '}
+          <span className="font-semibold">
+            backend y frontend
+          </span>{' '}
+          desde cero.
         </p>
         <ul className="feature-icons">
           <li className="icon solid fa-laptop">
-            Consequat tempus
+            1.- Landing Page
           </li>
           <li className="icon solid fa-bolt">
-            Etiam adipiscing
+            2.- Todo list
           </li>
           <li className="icon solid fa-signal">
-            Libero nullam
+            3.- Consumo de un API
           </li>
           <li className="icon solid fa-cog">
-            Blandit condimentum
+            4.- Restaurante
           </li>
           <li className="icon solid fa-map-marker-alt">
-            Lorem ipsum dolor
+            5.- E-commerce
           </li>
           <li className="icon solid fa-code">
-            Nibh amet venenatis
+            6.- Portafolio
           </li>
         </ul>
-        <p>
-          Vehicula ultrices sed ultricies condimentum. Magna
-          sed etiam consequat, et lorem adipiscing sed
-          nulla. Volutpat nisl et tempus et dolor libero,
-          feugiat magna tempus, sed et lorem adipiscing.
-        </p>
       </div>
     </section>
   );

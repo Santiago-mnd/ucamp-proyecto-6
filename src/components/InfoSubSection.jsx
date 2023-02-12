@@ -2,13 +2,20 @@ const InfoSubSection = () => {
   return (
     <section>
       <header>
-        <h2>Ultrices erat magna sed condimentum</h2>
+        <h2>Algunos ejemplos: </h2>
       </header>
       <div className="content">
         <p>
-          <strong>Integer mollis egestas</strong> nam
-          maximus erat id euismod egestas. Pellentesque
-          sapien ac quam. Lorem ipsum dolor sit nullam.
+          Aquí puedes ver algunos de los proyectos que he
+          realizado durante el Bootcamp. No muestro todos,
+          así que te invito a que visites{' '}
+          <a
+            href="https://github.com/Santiago-mnd"
+            target="_blank"
+          >
+            mi perfil de GitHub
+          </a>{' '}
+          para ver más.
         </p>
 
         <section>
@@ -25,115 +32,40 @@ const InfoSubSection = () => {
           <div className="content">
             <div className="gallery">
               <a
-                href="src/assets/images/gallery/fulls/01.jpg"
+                href="https://github.com/Santiago-mnd/UCAMP-landing-proyecto-1"
+                target="_blank"
                 className="landscape"
               >
                 <img
-                  src="src/assets/images/gallery/thumbs/01.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="src/assets/images/gallery/fulls/02.jpg">
-                <img
-                  src="src/assets/images/gallery/thumbs/02.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="src/assets/images/gallery/fulls/03.jpg">
-                <img
-                  src="src/assets/images/gallery/thumbs/03.jpg"
+                  src="https://i.ibb.co/zbTzM5B/image.png"
                   alt=""
                 />
               </a>
               <a
-                href="src/assets/images/gallery/fulls/04.jpg"
+                href="https://github.com/Santiago-mnd/ucamp-proyecto3-ind"
+                target="_blank"
+              >
+                <img
+                  src="https://i.ibb.co/fQcNNBH/image.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://github.com/Santiago-mnd/proyecto-4-UCAMP"
+                target="_blank"
+              >
+                <img
+                  src="https://i.ibb.co/rcB8WW9/image.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://github.com/Santiago-mnd/ucamp-proyecto-5"
+                target="_blank"
                 className="landscape"
               >
                 <img
-                  src="src/assets/images/gallery/thumbs/04.jpg"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <header>
-            <h3>Nisl consequat</h3>
-            <p>
-              Aenean ornare velit lacus, ac varius enim
-              ullamcorper eu. Proin aliquam sed facilisis
-              ante interdum congue. Integer mollis, nisl
-              amet convallis, porttitor magna ullamcorper,
-              amet mauris. Ut magna finibus nisi nec lacinia
-              ipsum maximus.
-            </p>
-          </header>
-          <div className="content">
-            <div className="gallery">
-              <a
-                href="src/assets/images/gallery/fulls/05.jpg"
-                className="landscape"
-              >
-                <img
-                  src="src/assets/images/gallery/thumbs/05.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="src/assets/images/gallery/fulls/06.jpg">
-                <img
-                  src="src/assets/images/gallery/thumbs/06.jpg"
-                  alt=""
-                />
-              </a>
-              <a href="src/assets/images/gallery/fulls/07.jpg">
-                <img
-                  src="src/assets/images/gallery/thumbs/07.jpg"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <header>
-            <h3>Lorem gravida</h3>
-            <p>
-              Proin aliquam facilisis ante interdum. Sed
-              nulla amet lorem feugiat tempus aenean ornare
-              velit lacus, ac varius sed enim lorem
-              ullamcorper dolore. ac varius enim lorem
-              ullamcorper dolore. Proin aliquam facilisis.
-            </p>
-          </header>
-          <div className="content">
-            <div className="gallery">
-              <a
-                href="src/assets/images/gallery/fulls/08.jpg"
-                className="portrait"
-              >
-                <img
-                  src="src/assets/images/gallery/thumbs/08.jpg"
-                  alt=""
-                />
-              </a>
-              <a
-                href="src/assets/images/gallery/fulls/09.jpg"
-                className="portrait"
-              >
-                <img
-                  src="src/assets/images/gallery/thumbs/09.jpg"
-                  alt=""
-                />
-              </a>
-              <a
-                href="src/assets/images/gallery/fulls/10.jpg"
-                className="landscape"
-              >
-                <img
-                  src="src/assets/images/gallery/thumbs/10.jpg"
+                  src="https://i.ibb.co/j5f0mPw/image.png"
                   alt=""
                 />
               </a>
