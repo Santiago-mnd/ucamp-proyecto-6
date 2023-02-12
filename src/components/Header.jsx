@@ -20,7 +20,10 @@ const Header = () => {
       </header>
       <div className="content">
         <span className="image fill" data-position="center">
-          <img src="src/assets/images/pic01.jpg" alt="" />
+          <img
+            src="https://i.ibb.co/74rsnGQ/pic01.jpg"
+            alt=""
+          />
         </span>
       </div>
     </section>
